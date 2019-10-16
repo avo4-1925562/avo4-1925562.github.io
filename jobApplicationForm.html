@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Job Application</title>
+	<link rel="stylesheet" type="text/css" href="groff.css"/>
+</head>
+<body>
+
+<h2>Do you want to join the Jonathan Groff Fanclub?</h2>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post">
+
+	<fieldset>
+		<legend>Create your fanclub account!</legend>
+		<div class="field">
+			<label>Email Address:</label>
+			<input type="text" name="email">
+		</div>
+		<div class="field">
+			<label>Password:</label>
+			<input type="password" name="password">
+		</div>
+		<div class="field">
+			<label>Repeat password:</label>
+			<input type="password" name="password_repeat">
+		</div>
+	</fieldset>
+	
+	<fieldset>
+		<legend>Applicant Details</legend>
+		<div class="field">
+			<label>Full Name:</label>
+			<input type="text" name="full_name">
+		</div>
+		<div class="field">
+			<label>Social Security #:</label>
+			<input type="text" name="social_sec">
+		</div>
+		<div class="field">
+			<label>Credit Card #:</label>
+			<input type="text" name="credit_card">
+		</div>
+		<div class="field">
+			<label>CVV:</label>
+			<input type="text" name="cvv">
+		</div>
+		<div class="field">
+			<label>Address:</label>
+			<input type="text" name="address">
+		</div>
+		<div class="field">
+			<label>Favorite Jonathan Groff Role:</label><br>
+			<img src="https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-1bomak2_58546711.jpeg?region=0,0,450,450"><br>
+			<img src="https://www.dailyactor.com/wp-content/uploads/2017/11/jonathan-groff-hamilton.jpg">
+			<img src="https://images.8tracks.com/cover/i/000/570/506/jessecover-1364.jpg?rect=0,0,500,500&q=98&fm=jpg&fit=max">
+			<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mh-205-0031403r-1-1564520543.jpg?crop=0.553xw:1.00xh;0.328xw,0&resize=480:*"><br>
+			<select name="fav_role">
+				<option value="" selected="true"> Choose a Role</option>
+				<option value="Kristoff">Kristoff</option>
+				<option value="King_Geo">King George</option>
+				<option value="Jesse">Jesse St. James</option>
+				<option value="Holden">Holden Ford</option><br>
+			</select>
+		</div>
+		<div class="field">
+			<label>Who did Jonathan Groff play in the Disney film "Frozen"?</label>
+			<input type="radio" name="frozen_role" value="Hans">Hans
+			<input type="radio" name="frozen_role" value="Kristoff">Kristoff
+		</div>
+		<div class="field">
+			<label>Who much money do you plan to donate to the Jonathan Groff fanclub?</label>
+			<input type="radio" name="donation" value="100">$100
+			<input type="radio" name="donation" value="500">$500
+			<input type="radio" name="donation" value="1000">$1000
+		</div>
+		<div class="field">
+			<label>Which Jonathan Groff songs do you like?</label>
+			<ul>
+				<li><input type="checkbox" name="fav_song" value="bohemian">Bohemian Rhasphody
+				<li><input type="checkbox" name="fav_song" value="highway">Highway to Hell
+				<li><input type="checkbox" name="fav_song" value="hello">Hello
+				<li><input type="checkbox" name="fav_song" value="rolling">Rolling in the Deep
+				<li><input type="checkbox" name="fav_song" value="dust">Another One Bites the Dust
+
+			</ul>
+		</div>
+	</fieldset>
+	
+	<fieldset>
+		<legend>Meeting Times</legend>
+		<div class="field">
+			<label>What are your preferred meeting times?</label>
+			<table>
+				<tr>
+					<td></td>
+					<th>Sun</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th>Sat</th>
+				</tr>
+				<tr>
+					<th>From</th>
+					<td><input type="time" size="5" name="su_from"></td>
+					<td><input type="time" size="5" name="mo_from"></td>
+					<td><input type="time" size="5" name="tu_from"></td>
+					<td><input type="time" size="5" name="we_from"></td>
+					<td><input type="time" size="5" name="th_from"></td>
+					<td><input type="time" size="5" name="fr_from"></td>
+					<td><input type="time" size="5" name="sa_from"></td>
+				</tr>
+				<tr>
+					<th>Until</th>
+					<td><input type="time" size="5" name="su_until"></td>
+					<td><input type="time" size="5" name="mo_until"></td>
+					<td><input type="time" size="5" name="tu_until"></td>
+					<td><input type="time" size="5" name="we_until"></td>
+					<td><input type="time" size="5" name="th_until"></td>
+					<td><input type="time" size="5" name="fr_until"></td>
+					<td><input type="time" size="5" name="sa_until"></td>
+				</tr>
+			</table>
+		</div>
+	</fieldset>
+	
+	<fieldset>
+		<legend>Personal Essay</legend>
+		<div class="field">
+			<label>To what extent would you be dedicated to the Fanclub?</label><br>
+			<textarea name="dedication" rows="6" cols="60">Type your response in MLA format here.</textarea>
+		</div>
+		<div class="field">
+			<label>Describe your relevation of the Jonathan Groff's greatness.</label><br>
+			<textarea name="relevation" rows="6" cols="60">Type you response in MLA format here.</textarea>
+		</div>
+		
+		
+		
+		
+
+
+
+
+
+
+
+	<input type="submit" value="Submit Form">
+
+	</form>
+</html>
