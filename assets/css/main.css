@@ -3879,7 +3879,7 @@
 		background-color: #1E2832;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("https://media1.s-nbcnews.com/j/newscms/2018_15/2394271/180410-crop-mark-zuckerberg-capitol-hill-redux-njs-1731_ab289e34ce7e6d3d35fac35f8bfcf3ef.fit-760w.jpg);
+		background-image: url("images/overlay.png"), url("https://media1.s-nbcnews.com/j/newscms/2018_15/2394271/180410-crop-mark-zuckerberg-capitol-hill-redux-njs-1731_ab289e34ce7e6d3d35fac35f8bfcf3ef.fit-760w.jpg");
 		background-size: cover;
 		text-align: left;
 	}
