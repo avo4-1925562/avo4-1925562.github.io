@@ -3331,7 +3331,7 @@
 			background-color: #1E2832;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/pic11.jpg");
+			background-image: url("images/overlay.png"), url("https://cnet4.cbsistatic.com/img/k46ED5_69DXcabs3MejiOP-Smvo=/1200x675/2018/04/10/b014e667-9a5c-44d3-84ee-a1c5fba5ffae/markzuckerbergcrop.jpg");
 			background-size: cover;
 		}
 
@@ -3879,7 +3879,7 @@
 		background-color: #1E2832;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwj32e3q27blAhXFqZ4KHbovCeoQjRx6BAgBEAQ&url=https%3A%2F%2Fabc7news.com%2Ftechnology%2Fvideo-highlights-from-mark-zuckerbergs-testimony-on-capitol-hill%2F3329728%2F&psig=AOvVaw2HjTj3RQw52CU9kUYTqinN&ust=1572069074682755);
 		background-size: cover;
 		text-align: left;
 	}
